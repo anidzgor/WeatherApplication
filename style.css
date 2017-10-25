@@ -1,0 +1,199 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url("bg.jpg");
+
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main-title {
+  font-size: 100px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal normal bold "alegreya-sc", Helvetica, sans-serif;
+  color: rgba(198,130,19,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  text-shadow: 4px 4px 6px rgba(17,20,14,0.86) ;
+
+}
+
+#info-error {
+  color: #f1f435;
+}
+
+#main-first-box {
+  margin-top: 50px;
+}
+
+.box {
+  position: relative;
+  top: 50px;
+  background: white;
+  -webkit-box-shadow: 16px 23px 15px -9px rgba(43,38,39,1);
+  -moz-box-shadow: 16px 23px 15px -9px rgba(43,38,39,1);
+  box-shadow: 16px 23px 15px -9px rgba(43,38,39,1);
+  opacity: 0.8;
+  border-radius: 10px;
+
+  width: 30%;
+}
+
+#first-box {
+  height: 170px;
+}
+
+#city-h1, #description, #temperature-title, #pressure-h1, #humidity-h1,
+#wind-h1 {
+  font-size: 40px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal normal bold "belgrano", Helvetica, sans-serif;
+  color: rgba(22,179,252,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  letter-spacing: 1px;
+  text-shadow: 2px 1px 1px rgba(51,56,47,0.86) ;
+}
+
+#second-box {
+  margin-left: 5px;
+  height: 170px;
+}
+
+#third-box {
+  margin-left: 5px;
+  height: 170px;
+}
+
+#forth-box {
+  margin-top: 10px;
+  height: 170px;
+}
+
+#fifth-box {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 170px;
+}
+
+#sixth-box {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 170px;
+}
+
+#city {
+  font-size: 40px;
+}
+
+#temperature {
+  font-size: 40px;
+}
+
+#pressure {
+  font-size: 40px;
+}
+
+#humidity {
+  font-size: 40px;
+}
+
+#icon-weather {
+  width: 100px;
+  display: block;
+  margin: -10px 110px auto;
+}
+
+#windDirection {
+  width: 45px;
+  display: block;
+  margin: -8px 130px auto;
+}
+
+@media (max-width: 1200px) {
+
+  #main-box {
+  margin-top: -20px;
+
+}
+
+    #first-box {
+      margin-top: -70px;
+      margin-left: 15px;
+      width: 90%;
+      height: 100px;
+}
+
+
+  #second-box {
+    margin-left: 15px;
+    width: 90%;
+    height: 130px;
+
+    }
+
+  #third-box {
+  margin-left: 15px;
+  width: 90%;
+  height: 130px;
+}
+
+  #forth-box {
+  margin-left: 15px;
+  width: 90%;
+  height: 130px;
+}
+
+  #fifth-box {
+  margin-left: 15px;
+  width: 90%;
+  height: 130px;
+}
+
+  #sixth-box {
+  margin-left: 15px;
+  width: 90%;
+  height: 130px;
+    margin-bottom: 10px;
+}
+
+  #city-h1 {
+    font-size: 40px;
+  }
+
+  #city {
+    font-size: 20px;
+  }
+
+  #main-title {
+  font-size: 30px;
+}
+
+#icon-weather {
+  margin-top: -20px;
+  margin-left: 100px;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+  #wind {
+    margin-top: -5px;
+
+  }
+  #windDirection {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
